@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>App</name>
+    </assembly>
+    <members>
+        <member name="M:App.KeywordsSearchService.IKeywordsSearchConfig.ValidateKeywordsSearchConfig">
+            <exception cref="T:App.KeywordsSearchService.KeywordsSearchConfigException">Wrong settings</exception>
+        </member>
+        <member name="M:App.KeywordsSearchService.StackExchangeHttpClient.GetItemsAsync(App.KeywordsSearchService.Keyword,System.Threading.CancellationToken)">
+            <exception cref = "T:System.ArgumentException"> Parameter null or empty or length more or equals 100</exception>
+            <exception cref = "T:System.Net.Http.HttpRequestException"> Troubles with request or bad status code</exception>
+        </member>
+    </members>
+</doc>
